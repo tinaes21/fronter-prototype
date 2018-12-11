@@ -1,1 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+#page1{
+    background-color: #ea5045;
+}
+
+h1{
+    font-family: "ubuntu";
+    color: white;
+    font-size: 2.5em;
+    margin-left: 3em;
+}
+
+
+#forgot{
+    color: black;
+    cursor: pointer;
+    font-family: "helvetica";
+    margin-left:5.5em;
+    margin-top: 2em;
+}
+
+h3{
+    font-family:"helvetica";
+    color: white;
+    padding-left:2em;
+}
+p{
+    font-family:"helvetica";
+    color: white;
+    padding-left:3em
+}
+
+#login{
+    height: 35px;
+    width: 300px;
+    margin-left:3em;
+}
+
+#lower{
+    color: white;
+    margin-left: 16em;
+}
+#btn{
+    width: 6em;
+    height: 2.5em;
+    background-color: darkred;
+    color: white;
+    font-family: "helvetica";
+    font-size: 1em;
+    margin-left: 9.5em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+input{
+    background-color: mintcream;
+}

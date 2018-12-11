@@ -8,28 +8,29 @@
 <title>login page</title>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
-<body>
+
+<body id="page1">
  <header>
-<p>Fronter</p>
- <div id="container">
-<form>
-
-<label for="username">Username:</label>
-<input type="text" id="username" name="username" required>
-
-<label for="password">Password:</label>
-<input type="password" id="password" name="password" required>
-
-<div id="lower">
-<input type="checkbox">
-
-<label for="checkbox">Keep me logged in</label>
-
-<input type="submit" value="Login">
-</div>
-</form>
-</div>
+<h1>Fronter</h1>
 </header>
 
-    </body>
+<div id="container">
+
+<form id="username">
+<h3>Username:</h3><br>
+<input id="login" type="email" required>
+    </form>
+    </div>
+<form id="password">
+<h3>Password:</h3>
+<input id="login" type="password" required>
+<p>Language:</p>
+<p id="forgot">Forgot Password</p>
+</form>
+
+<div id="lower">
+Remember me<input id="remember" type="checkbox" id="check"><br>
+</div>
+<button id="btn">Log in</button>
+</body>
 </html>
