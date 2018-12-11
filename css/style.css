@@ -11,6 +11,13 @@ h1{
     margin-left: 3em;
 }
 
+h1.greyfronter{
+    font-family: "ubuntu";
+    color: dimgrey;
+    font-size: 2.5em;
+    margin-left: 3em;
+}
+
 
 #forgot{
     color: black;
@@ -59,3 +66,8 @@ input{
     font-family:"helvetica";
 
 }
+
+.profile {
+    height: 160px;
+    width: auto;
+    margin-left: 6.5em;
