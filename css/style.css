@@ -87,3 +87,13 @@ input{
     margin-left: 7em;
     cursor: pointer;
 }
+
+.submissions{
+    transition: 1s all;
+}
+
+.submissions:hover{
+    text-decoration: underline;
+    color: black;
+
+}
