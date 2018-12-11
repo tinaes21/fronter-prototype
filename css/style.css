@@ -24,6 +24,7 @@ h3{
     font-family:"helvetica";
     color: white;
     padding-left:2em;
+    margin-bottom: 0;
 }
 p{
     font-family:"helvetica";
@@ -55,4 +56,6 @@ p{
 
 input{
     background-color: mintcream;
+    font-family:"helvetica";
+
 }
