@@ -167,3 +167,10 @@ th, td{
     cursor: pointer;
 
 }
+#searchbar{
+    margin-left: 8em;
+    width: 200px;
+    height: 18px;
+    margin-top: 1em;
+    background-color: #C7EDF7;
+}
