@@ -35,6 +35,7 @@ h1.whitefronter{
     width: 60px;
     margin-top: 1em;
     margin-left: 1em;
+    cursor: pointer;
 }
 
 #forgot{
@@ -98,6 +99,7 @@ p{
 input{
     background-color: mintcream;
     font-family:"helvetica";
+    border-radius: 10px;
 
 }
 
@@ -131,9 +133,24 @@ table, th, td{
     width: 92%;
     margin-top: 2em;
     margin-left: 1em;
+    border-radius: 20px;
 }
 
 th, td{
    padding: 7px;
    text-align: left;
+}
+.tableheading{
+    color: #0762C8;
+    font-family: "helvetica";
+}
+
+.selected{
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.selected:hover{
+    color: #0762C8;
+    transition: 1s all;
 }
