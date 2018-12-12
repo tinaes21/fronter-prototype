@@ -16,20 +16,26 @@
 
 <div id="container">
 
-<form id="username">
+<form>
 <h3>Username:</h3><br>
-<input id="login" type="email" required>
+<input id="login" type="text" required>
     </form>
     </div>
-<form id="password">
+<form>
 <h3>Password:</h3><br>
-<input id="login" type="password" required>
+<input id="login" type="text" required>
 <p>Language:</p>
+<form>
+  <input id="language" type="radio" name="language" value="danish" checked>Danish
+  <input id="langauge" type="radio" name="language" value="English"> English
+</form>
+
+
 <p id="forgot">Forgot Password</p>
 </form>
 
-<div id="lower">
-Remember me<input id="remember" type="checkbox" ><br>
+<div id="remember">
+Remember me<input type="checkbox" ><br>
 </div>
 <button id="btn"><a href="homepage.html">Log in</a></button>
 </body>
