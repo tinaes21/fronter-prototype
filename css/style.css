@@ -29,6 +29,7 @@ h1.whitefronter{
     margin-top:0;
     width: 150px;
     height: 50px;
+
 }
 
 .return{
@@ -37,6 +38,7 @@ h1.whitefronter{
     margin-left: 1em;
     cursor: pointer;
 }
+
 
 #forgot{
     color: black;
@@ -153,4 +155,15 @@ th, td{
 .selected:hover{
     color: #0762C8;
     transition: 1s all;
+}
+
+.burgermenu{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    margin-left:21em;
+    margin-top: 0;
+    cursor: pointer;
+
 }
