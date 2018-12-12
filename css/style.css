@@ -59,6 +59,14 @@ h2{
     margin-bottom: 0;
     cursor: pointer;
 }
+
+h2.subhead{
+    font-family: "ubuntu";
+    color: #524D4D;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 30px
+}
 p{
     font-family:"helvetica";
     color: white;
