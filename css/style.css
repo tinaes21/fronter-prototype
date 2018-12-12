@@ -174,3 +174,16 @@ th, td{
     margin-top: 1em;
     background-color: #C7EDF7;
 }
+#teacher{
+    width: 50px;
+}
+
+#download{
+    background-color:#1669AF;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: "Helvetica";
+    margin-left:9em;
+    cursor: pointer;
+}
