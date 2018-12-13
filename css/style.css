@@ -117,6 +117,7 @@ input{
     height: 160px;
     width: auto;
     margin-left: 6.5em;
+
 }
 
 #profiletext{
@@ -262,6 +263,14 @@ a{
     }
 }
 
-.pointer {
-    cursor: pointer;
+#submit{
+    margin-left: 15em;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 80px;
+    font-family: "helvetica";
+
 }
+
